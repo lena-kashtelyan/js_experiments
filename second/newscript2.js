@@ -42,7 +42,7 @@ $(document).ready(function () {
     picTwistFilter.offset.x = 0.55;
     picTwistFilter.offset.y = 0.9;
 
-    var picDisplacementSprite = PIXI.Sprite.fromImage('displacement_map.jpg');
+    var picDisplacementSprite = PIXI.Sprite.fromImage('some_map.jpg');
 		stage.addChild(picDisplacementSprite);
 		var picDisplacementFilter = new PIXI.filters.DisplacementFilter(picDisplacementSprite);
 		picDisplacementFilter.scale.x = 0;
