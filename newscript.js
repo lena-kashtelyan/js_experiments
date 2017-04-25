@@ -71,8 +71,8 @@ $(document).ready(function () {
           picBlurFilter.blur = (scroll-(middle-100))/400;
           picTwistFilter.radius = factorPic;
           picDisplacementFilter.scale.x = factorPic * 10;
-          picDisplacementFilter.scale.y = factorPic * 100;
-          pic.scale = new PIXI.Point(factorPic*2 + 1, factorPic*2 + 1);
+          picDisplacementFilter.scale.y = factorPic * 70;
+          pic.scale = new PIXI.Point(factorPic*2 + 1, factorPic*1.5 + 1);
         } else {
           picBlurFilter.blur = 0;
           picTwistFilter.radius = 0;
